@@ -1,0 +1,319 @@
+Maths:
+
+1. Linear Algebra 
+
+matrix, vectors 
+
+2. Calculus 
+
+Derivatives , Integrations 
+
+
+
+
+Target Variable/ Dependent Variable   = y == loan status    x1,x2,x3
+
+Independent   ==  Income, cibil, company 
+
+y = f(x1,x2,x3,.......)
+
+loan status = f(Income, cibil, company)     --> based on this we will get like person will repay loan or not 
+
+where f -> functional form 
+where functional form can be in Linear, Quadratic, or polynomial etc 
+
+
+
+=>    Linear Equations:
+
+y = dep (sales)
+
+x = independent(discount)
+
+scatter plot helps us to visulize corelations 
+
+
+
+y = mx + c
+
+y(sales) = 200(disc) + 500
+
+
+where m = slope = change in y upon change in x
+ 
+    =   rise/run 
+    
+    
+    
+    
+    
+slope   , tangent , colinear , linear, regression , calculus   etc 
+
+
+
+To find the salary of the person we are taking into consideration their years of exp, age, desigation, Qualification etc 
+
+
+so for this 
+
+Target variable = salary ==  Bo + b1x + b2x2 + ....
+independent variable  = exp, age, Qualification, designation etc ..
+
+ = b0 + b1(exp) + b2(age) + b3(Quali) + ... 
+ 
+ 
+ 
+polynomial equations :
+
+y = mx + c      ------------------> linear   with degree 1 
+y = ax^2 + bx =c   ---------------> Quadratic   -- 2
+y = ax^3 +bx^2 +cx +d   ----------> cubic  -- 3
+
+
+
+Quadratic equations :
+
+Shape of the Quadratic Equtions --- > Always it gives us like parabola shape ...
+
+
+y = ax^2 + bx + c
+
+i) if a > 0 ===>  upper parabola ==>  y = 2x^2 + 3x +5
+
+ii) if a < 0 ==>  down parabola ==>  y = -3x^2 + 5x + 6
+
+
+
+Monotonic 
+Global Min & Global Max
+Local Min & Local Max
+First Derivative
+Second Derivative
+Critical Points 
+
+
+
+
+if ithe curve is increases or decreses its called Monotonic 
+
+domain is on x axis    -- like inputs 
+range is on y axis   --- like outputs 
+
+
+Global max means for any value that we have in the domain what is maximum value we can get in range is called as global maximum ..
+
+Maximum ever till now - Global Max
+Maximum only for a certain period - Local Max
+
+The highest of all local maximum is the Global Maximum, lowest of all local min is global min?
+Example...Maximum marks in class and maximum marks in a particular section in a class
+
+for a given data global max & min it only single point, but for local max & min can be many ......…..... [example of voice frequency , and draw sin wave and locate local, global ]
+
+
+
+1. Consider the following equation and determine whether there global min, max exist or not 
+
+1. y = -3x^2 + 5x + 3
+
+--> we will get down word parabola -- so will get max point -- > so we will get global max 
+
+
+2. y = -2x +c 
+
+--> linear eqation so no min , max , or global max , min 
+
+3. y = 5x^2 -3x -2
+
+--> a> 0 means upper side parabola --> so we will get global minimum 
+
+
+
+
+so for above equations we want to find global max, min and their comes calculus ..
+
+Derivatives 
+when we want to understand how the change in 1 variable is impacting the change in another variable we can use the concept of derivatives 
+
+y = x^5 
+dy/dx = 5x^4
+
+formula : if y = x^n , dy/dx =  n * x^n-1
+
+if y = 3x^4
+dy/dx = 12x^3
+
+for y = k , ==> dy/dx = 0
+
+y = K ==>  3x^0  ==> dy/dx = 3 . 0 . x ^ 0-1  ==> 0 
+
+
+y =x => dy/dx = 1
+
+y = 5x^6 -3x + 7 ==> dy/dx =  30x^5 -3 
+
+
+-------------------------------------------------------------------------------------------------------
+
+Dt: 22-11-2020
+
+
+Objective function 
+y = x^2 -5x + 2 --->   find global min 
+
+usually the min and max values at the points where the graph changes the direction either from increasing to decresing or  decresing to increasing ..  In this case we have to achieve the global min that means we have to find the value of x that given us the global min for y ..
+
+1. dy/dx = 2x -5
+
+2. 
+and at tengent or critical points the slope = 0 
+dy/dx =0 
+
+2x -5 = 0 
+x = 5/2    --> critical points ..
+
+
+3. d^2y/dx^2  = d(2x -5)/dx = 2  > 0   (when we have higher polynomials we dont know about graphs so we have to go for second derivative to fine global min, max ..)
+
+IMP ...
+
+    -> if the second derivative value is positive for the critical calues of X then the curve will have global min at that point.
+    -> if the second derivatives is negative for the critical values of X then the curve will have global max.
+    
+    
+    
+    global min y value == (5/2)^2 - 5(5/2) + 6 = -1/4
+    
+   Global min = (5/2,-1/4)
+   
+ 
+-->    At x =5/2, the curve is having a global min and the value of global min is -1/4
+
+
+
+y = -5x^2 + 6x -2 
+1. dy/dx =  -10x + 6
+2. x = 6/10 = 3/5
+3. d2y/dx = -10   < 0   -- global max
+y = -5(6/10)^2 + 6(6/10) -2 == -5*36/100 + 36/10 -2 = -1.8 + 3.6 -2 = -0.2
+4. global max = (3/5,-0.2)
+
+
+
+
+
+-------------
+
+There is a rectangular field with a perimeter of 24 ft. Now find the dimensions of the field that can maximize the area of the rectangle ..
+
+
+
+P = 2(l+w)
+24 = 2(x+y)
+
+x+y = 12
+
+y = 12 -x 
+
+dy/dx = -1
+
+Area = l*w
+     = x* (12-x)
+A = 12x - x^2
+-----------------so objective function => max area => Max (l,w)
+
+
+dy/dx = 12-2x  
+0 = 12 - 2x => x = 6
+
+d^2y/dx^2 = -2    ------>   global max 
+
+y = 12*6 -6^2
+  = 72 - 36
+  = 36
+  
+  
+  
+  
+What is the domain of a Quadratic curve   -->   [-infinity, +infiny]
+what is the range of a quadratic curve .. -->   [global min, infinity]  or [-infinity, global max]
+
+
+* check domain and range in details from google.
+
+
+
+-->  A rancher wants to build a rectangular pen, using one side of her barn for one side of the
+pen, and using 100m of fencing for the other three sides. What are the dimensions of the
+pen built this way that has the largest area?
+
+
+l+2w = 100
+l = 100 - 2w 
+
+Area =  l * w
+ = (100-2w) * w 
+ A = 100w - 2w^2
+ 
+
+http://www.math.ubc.ca/~elyse/100/2016/Optimization.pdf
+Math is fun .........
+https://www.mathsisfun.com/
+https://www.3blue1brown.com/
+
+
+
+
+-------------------
+
+y = b0 + b1x
+
+Here we have to find the beta coefficient 
+
+Objective Functions:
+Find the best beta coefficients that can minimize the errors 
+
+
+min error = e1^2 + e2^2 + e3^2 ....
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+

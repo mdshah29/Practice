@@ -1,0 +1,50 @@
+Advanced statistics
+1.	Probability Distributions
+2.	Inferential statistics
+3.	Oops concepts
+4.	Regular expressions
+5.	NumPy and pandas
+6.	Visualizations – Matplotlib and seaborn
+7.	EDA -Case study which includes , descriptive stats , distributions, NumPy, pandas and visualizations
+8.	Web scraping and also EDA on the data we scrape
+9.	SQL sessions
+
+
+
+What is the best way to expand your professional network?
+
+Vladimir Novakovski, Cofounder and CEO of Lunchclub
+Updated Mon
+With Lunchclub, we have created a way to network over video both locally and globally. Previously, I have built networks over the years in academia, the hedge fund space, and Silicon Valley and can share some of the thinking that went into how networks expand. There are two high-level appr
+(Continue reading in feed)
+Related Spaces (More Answers Below)
+
+Maths Interesting
+A space is about all about interesting problems in mathematics. All can learn, ask, answer and contribute.
+
+Mathemagics & Puzzles
+Mathematics, Vedic Math, Quantitative Aptitude Q&A, Puzzles.
+
+Mukesh Kumar's Mechanical
+Mechanical engineer
+
+Logic/puzzle reasoning.
+Here you can ask/post any logical reasoning as well as tricky puzzle.
+
+Mathematics is Life
+This space is dedicated to the beauty of mathematics.
+
+The Math Guru
+School Maths CBSE, ICSE, IB and Quantitative Ap
+
+
+
+1st one we have 4 place but we have 3 people only  so people have choice like they can seat any where 
+
+2nd one we have 6 place on and we have 8 people
+here like management have to fill 6 place by selection 
+people dont have choice
+
+we have 4 chairs means
+
+
